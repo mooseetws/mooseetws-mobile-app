@@ -3,25 +3,25 @@ import 'dart:async';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(MooseTWS());
 
 
-class MyApp extends StatelessWidget {
+class MooseTWS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Google Maps Demo',
-      home: MapSample(),
+      home: MainMapView(),
     );
   }
 }
 
-class MapSample extends StatefulWidget {
+class MainMapView extends StatefulWidget {
   @override
-  State<MapSample> createState() => MapSampleState();
+  State<MainMapView> createState() => MainMapViewState();
 }
 
-class MapSampleState extends State<MapSample> {
+class MainMapViewState extends State<MainMapView> {
   Completer<GoogleMapController> _controller = Completer();
 
   CameraPosition initialPosition = CameraPosition(target: LatLng(61.9241, 25.7482));
