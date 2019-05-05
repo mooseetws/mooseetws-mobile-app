@@ -5,7 +5,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:mooseetws/data/MooseList.dart';
 import 'dart:io';
 
-import 'package:mooseetws/httpservice.dart';
+import 'services/httpservice.dart';
 
 class MainMapView extends StatefulWidget {
   @override

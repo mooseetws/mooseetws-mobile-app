@@ -1,6 +1,9 @@
 # mooseetws
 
-A new Flutter application.
+Flutter based application crated for IOThon 2019.
+The app registers the license plate with MooseETWS to notify the users about the moose sigtings.
+This app uses Firebase cloud messaging for enabling push notifications and google Maps for displaying the moose sightings.
+
 
 ## Getting Started
 
